@@ -1,3 +1,4 @@
+/* Resets all elements */
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +6,10 @@
 }
 
 body {
-  font-family: "Your-Font-Family";
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #ffffff;
   color: #3d3d3d;
+  /* // The space between my lines  */
   line-height: 1.6;
 }
 
@@ -16,26 +18,29 @@ a {
   color: #3d3d3d;
 }
 
+/* The community links at the bottom of my page  */
 .community-connect {
   font-size: 40px;
   text-decoration: none;
   color: #3d3d3d;
-  position: relative; /* Needed for ::after positioning */
+  position: relative;
 }
 
+/* The line that appears when you hover over my community links  */
 .community-connect::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -2px; /* Adjust this value for spacing under the text */
+  bottom: -2px;
   width: 0;
-  height: 2px; /* Thickness of the line */
+  height: 2px;
   background-color: #3d3d3d;
-  transition: width 0.3s ease; /* Controls the animation */
+  transition: width 0.3s ease;
 }
 
+/* Grows the line to the full width of the community link that you hover over */
 .community-connect:hover::after {
-  width: 100%; /* Grows the line to full width on hover */
+  width: 100%;
 }
 
 header {
@@ -105,6 +110,7 @@ h2 {
   font-size: 35px;
 }
 
+/* The class thats connected to my Learning tool names */
 .tool-names {
   font-size: 30px;
   font-weight: 900;
@@ -115,11 +121,13 @@ p {
   font-size: 22px;
 }
 
+/* The quote at the body fo my page */
 .para-quote {
   text-align: center;
   margin: 15px;
 }
 
+/* The p element at the top of my page */
 .title-para {
   text-align: center;
   font-size: 35px;
@@ -127,6 +135,7 @@ p {
   margin-top: 60px;
 }
 
+/* The div that holds my paragraph and image at the top of my page together */
 .image-card {
   display: flex;
   justify-content: space-between;
@@ -141,6 +150,7 @@ p {
   flex-wrap: wrap;
 }
 
+/* The first section on my page */
 .section-title {
   text-align: center;
   margin-bottom: 16px;
@@ -225,7 +235,6 @@ p {
 .grid-section .grid-container .grid-item {
   flex: 1;
   background-color: #ffffff;
-  /* color: 16px; */
   text-align: center;
   margin: 15px;
   box-sizing: border-box;
