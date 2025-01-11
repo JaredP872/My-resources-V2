@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,27 +9,60 @@
     <title>Resources</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#">link1</a></li>
-          <li><a href="#">link2</a></li>
-          <li><a href="#">link3</a></li>
-        </ul>
-      </nav>
-      <div class="search-bar">
-        <input type="text" placeholder="Search..." />
-        <button>Search</button>
-      </div>
-    </header>
-
+     <header>
+       <nav>
+         <div class="nav-wrapper">
+           <a href="#" class="brand-logo"><img src="/img/mLogo.png" alt="" /></a>
+     
+           <div class="hamburger-menu" id="hamburger-menu">
+             <span></span>
+             <span></span>
+             <span></span>
+           </div>
+     
+           <ul class="nav-links">
+             <li><a href="#">Map</a></li>
+             <li><a href="#">Call to Action</a></li>
+             <li><a href="#">About Us</a></li>
+             <li><a href="#">Contact</a></li>
+             <li id="profile-icon">
+               <i class="fa-regular fa-user"></i>
+             </li>
+           </ul>
+         </div>
+       </nav>
+       <ul class="side-nav" id="'side-nav">
+         <li><a href="#">Explore</a></li>
+         <li><a href="#">Resources</a></li>
+         <li><a href="#">About Us</a></li>
+         <li><a href="#">Contact</a></li>
+         <li id="profile-icon">
+           <i class="fa-regular fa-user"></i>
+         </li>
+       </ul>
+     
+       <div id="profile-modal" class="modal">
+         <div class="modal-content">
+           <h3>Welcome! Please choose an option:</h3>
+           <button id="join-btn">Join</button>
+           <button id="login-btn">Login</button>
+         </div>
+       </div>
+     
+       <nav class="nav-text">
+         <h1>Resources</h1>
+         <p>
+           Our resource library dives deep into the harmful impact AI is having on the art world. From the displacement of traditional artists to the erasure of historical techniques, we provide critical information to raise awareness about the threats to art history posed by AI.
+         </p>
+         <button><a href="">Find Out More</a></button>
+       </nav>
+     </header>
     <main>
       <section class="section-title">
-        <h1>Resources</h1>
         <div class="image-card">
           <img class="resource-img" src="https://tourismmedia.italia.it/is/image/mitur/20210318152840-cop-1?wid=1080&hei=660&fit=constrain,1&fmt=webp" alt="First img" />
           <div>
-          <p class="title-para">Our mission is to educate users on the importance of art and art history. Below you will find valuable resources that will help you along your artistic journy!</p>
+          <p class="title-para">Our mission is to educate users on the importance of art and art history. Below you will find valuable resources that will help you along your artistic journey!</p>
         </div>
       </section>
 
@@ -38,42 +72,95 @@
           <div class="grid-item">
             <a href="https://smarthistory.org/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRydaEFGqqubUcMQcUAOm4DilQkxPTlIlyg9Q&s" alt="second-img" /></a>
             <p class="tool-names" >Smarthistory</p>
-            <p>Learn arts history here</p>
+            <p>Learn arts history</p>
           </div>
 
           <div class="grid-item">
             <a href="https://www.coursera.org/courses?query=art"><img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/656458/1561279/restricted" alt="third-img" /></a>
             <p class="tool-names" >Coursera</p>
-            <p>Learn how to create art here</p>
+            <p>Create your own</p>
           </div>
 
           <div class="grid-item">
-            <a href="https://artincontext.org/why-is-art-important/"><img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/09/16110005/starry-nights-1.jpeg" alt="fourth-img" /></a>
+            <a href="https://sightengine.com/how-to-spot-ai-images-and-deepfakes"><img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/09/16110005/starry-nights-1.jpeg" alt="fourth-img" /></a>
             <p class="tool-names" >Smarthistory</p>
-            <p>Learn the importance of art here</p>
+            <p>Discover AI vs. human art differences.</p>
           </div>
         </div>
       </section>
 
-      <section class="text-row">
-        <p class="para-quote" >“Every artist was first an amateur.”
-          ― Ralph Waldo Emerson</p>
+       
 
+      <section class="text-row">
+        <div class="allContent">
+        <div class="content1">
         <h2 class="connect-h2" >Connect to the art community</h2>
+
+        <p class="para-quote" >Explore these creative communities to share your work, connect with fellow artists, and find inspiration.</p>
+        </div>
+        </div>
        
         <div class="text-row-items">
-          <p class="p-Community"><a class="community-connect" href="https://www.artstation.com/?sort_by=community&dimension=all">ArtStation</a></p>
-          <p class="p-Community"><a class="community-connect" href="https://www.behance.net/?gad_source=1&gclid=Cj0KCQiA4fi7BhC5ARIsAEV1Yib5kw5EuNUI5wSdG-73O75ythzGwDsLlPfZBmOtk28N6iwACUDVTfkaAuAQEALw_wcB">Behance</a></p>
-          <p class="p-Community"><a class="community-connect" href="https://dribbble.com/">Dribbble</a></p>
-          <p class="p-Community"><a class="community-connect" href="https://www.deviantart.com">DeviantArt</a></p>
+          <p class="p-Community"><a class="community-connect" href="https://www.linkedin.com/groups/12684660/">ART DECO & ART NOUVEAU COMMUNITY</a></p>
+          <p class="p-Community"><a class="community-connect" href="https://www.linkedin.com/groups/4472701/">Museum and Art Gallery Exhibitions & Events</a></p>
         </div>
       </section>
     </main>
-
-    <footer>
-      <p>Second NavBar</p>
-      <p>Modern Footer</p>
-      <p>Text Summary</p>
-    </footer>
-  </body>
+     <footer>
+       <div class="seperator"></div>
+       <nav class="footer-nav">
+         <section class="section1">
+           <a href="#" class="footer-logo"><img src="/img/wmuse.png" alt="" /></a>
+           <ul class="footer-links">
+             <li>
+               <a href="#">
+                 <i class="fa-brands fa-facebook"></i>
+               </a>
+             </li>
+             <li>
+               <a href="#">
+                 <i class="fa-brands fa-square-instagram"></i>
+               </a>
+             </li>
+             <li>
+               <a href="#">
+                 <i class="fa-brands fa-linkedin"></i>
+               </a>
+             </li>
+           </ul>
+         </section>
+       </nav>
+       <section class="section2">
+         <div>
+           <p>Art is a human expression.</p>
+           <p>Machines can't replicate true creativity.</p>
+           <p>Art thrives through personal experience.</p>
+           <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+         </div>
+       </section>
+       <section class="section3">
+         <ul>
+           <li><a href="#">Explore</a></li>
+           <li><a href="#">Resources</a></li>
+           <li><a href="#">About Us</a></li>
+           <li><a href="#">Contact</a></li>
+         </ul>
+       </section>
+       <section class="section4">
+         <p>
+           The website’s mission is to celebrate and preserve the rich history of
+           human-created art, emphasizing the unique creativity, craftsmanship, and
+           emotional depth that only people can convey, while rejecting artificial
+           intelligence as a substitute for true artistic expression, and encouraging
+           real, personal connections with art in its authentic form.
+         </p>
+       </section>
+       <section class="section5">
+         <ul>
+           <li>Privacy Policy</li>
+           <li>Donation Policy</li>
+           <li>Website by Team3</li>
+         </ul>
+       </section>
+     </footer>  </body>
 </html>
