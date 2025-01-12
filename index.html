@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,54 +8,8 @@
     <title>Resources</title>
   </head>
   <body>
-     <header>
-       <nav>
-         <div class="nav-wrapper">
-           <a href="#" class="brand-logo"><img src="/img/mLogo.png" alt="" /></a>
-     
-           <div class="hamburger-menu" id="hamburger-menu">
-             <span></span>
-             <span></span>
-             <span></span>
-           </div>
-     
-           <ul class="nav-links">
-             <li><a href="#">Map</a></li>
-             <li><a href="#">Call to Action</a></li>
-             <li><a href="#">About Us</a></li>
-             <li><a href="#">Contact</a></li>
-             <li id="profile-icon">
-               <i class="fa-regular fa-user"></i>
-             </li>
-           </ul>
-         </div>
-       </nav>
-       <ul class="side-nav" id="'side-nav">
-         <li><a href="#">Explore</a></li>
-         <li><a href="#">Resources</a></li>
-         <li><a href="#">About Us</a></li>
-         <li><a href="#">Contact</a></li>
-         <li id="profile-icon">
-           <i class="fa-regular fa-user"></i>
-         </li>
-       </ul>
-     
-       <div id="profile-modal" class="modal">
-         <div class="modal-content">
-           <h3>Welcome! Please choose an option:</h3>
-           <button id="join-btn">Join</button>
-           <button id="login-btn">Login</button>
-         </div>
-       </div>
-     
-       <nav class="nav-text">
-         <h1>Resources</h1>
-         <p>
-           Our resource library dives deep into the harmful impact AI is having on the art world. From the displacement of traditional artists to the erasure of historical techniques, we provide critical information to raise awareness about the threats to art history posed by AI.
-         </p>
-         <button><a href="">Find Out More</a></button>
-       </nav>
-     </header>
+     {{>navbar}}
+
     <main>
       <section class="section-title">
         <div class="image-card">
@@ -72,19 +25,19 @@
           <div class="grid-item">
             <a href="https://smarthistory.org/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRydaEFGqqubUcMQcUAOm4DilQkxPTlIlyg9Q&s" alt="second-img" /></a>
             <p class="tool-names" >Smarthistory</p>
-            <p>Learn arts history</p>
+            <p>Learn the history of art and it's artifacts here:</p>
           </div>
 
           <div class="grid-item">
             <a href="https://www.coursera.org/courses?query=art"><img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/656458/1561279/restricted" alt="third-img" /></a>
             <p class="tool-names" >Coursera</p>
-            <p>Create your own</p>
+            <p>Learn to create art of your own here:</p>
           </div>
 
           <div class="grid-item">
             <a href="https://sightengine.com/how-to-spot-ai-images-and-deepfakes"><img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/09/16110005/starry-nights-1.jpeg" alt="fourth-img" /></a>
             <p class="tool-names" >Smarthistory</p>
-            <p>Discover AI vs. human art differences.</p>
+            <p>Discover the difference between Ai and human art here:</p>
           </div>
         </div>
       </section>
@@ -106,61 +59,6 @@
         </div>
       </section>
     </main>
-     <footer>
-       <div class="seperator"></div>
-       <nav class="footer-nav">
-         <section class="section1">
-           <a href="#" class="footer-logo"><img src="/img/wmuse.png" alt="" /></a>
-           <ul class="footer-links">
-             <li>
-               <a href="#">
-                 <i class="fa-brands fa-facebook"></i>
-               </a>
-             </li>
-             <li>
-               <a href="#">
-                 <i class="fa-brands fa-square-instagram"></i>
-               </a>
-             </li>
-             <li>
-               <a href="#">
-                 <i class="fa-brands fa-linkedin"></i>
-               </a>
-             </li>
-           </ul>
-         </section>
-       </nav>
-       <section class="section2">
-         <div>
-           <p>Art is a human expression.</p>
-           <p>Machines can't replicate true creativity.</p>
-           <p>Art thrives through personal experience.</p>
-           <!-- <p>Lorem ipsum dolor sit amet.</p> -->
-         </div>
-       </section>
-       <section class="section3">
-         <ul>
-           <li><a href="#">Explore</a></li>
-           <li><a href="#">Resources</a></li>
-           <li><a href="#">About Us</a></li>
-           <li><a href="#">Contact</a></li>
-         </ul>
-       </section>
-       <section class="section4">
-         <p>
-           The website’s mission is to celebrate and preserve the rich history of
-           human-created art, emphasizing the unique creativity, craftsmanship, and
-           emotional depth that only people can convey, while rejecting artificial
-           intelligence as a substitute for true artistic expression, and encouraging
-           real, personal connections with art in its authentic form.
-         </p>
-       </section>
-       <section class="section5">
-         <ul>
-           <li>Privacy Policy</li>
-           <li>Donation Policy</li>
-           <li>Website by Team3</li>
-         </ul>
-       </section>
-     </footer>  </body>
+     {{>footer}}
+  </body>
 </html>
